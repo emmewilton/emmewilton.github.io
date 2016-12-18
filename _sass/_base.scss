@@ -473,6 +473,17 @@ footer {
   }
 }
 
+.btn-outline2 {
+  color: white;
+  border-color: white;
+  border: 1px solid;
+  &:hover, &:focus, &:active, &.active {
+    color: $theme-primary;
+    background-color: white;
+    border-color: white;
+  }
+}
+
 .btn {
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   text-transform: uppercase;
